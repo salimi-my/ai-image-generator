@@ -1,9 +1,5 @@
 import download from './download.png';
-import logo from './logo.svg';
+import logo from './ai-image-generator.png';
 import preview from './preview.png';
 
-export {
-  download,
-  logo,
-  preview,
-};
+export { download, logo, preview };
