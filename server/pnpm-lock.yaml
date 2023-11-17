@@ -25,7 +25,7 @@ dependencies:
     version: 4.18.2
   mongoose:
     specifier: '>=7.3.3'
-    version: 8.0.1
+    version: 7.3.3
   nodemon:
     specifier: ^3.0.1
     version: 3.0.1
@@ -135,6 +135,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
+    dev: false
+
+  /bson@5.5.1:
+    resolution: {integrity: sha512-ix0EwukN2EpC0SRWIj/7B5+A6uQMQy6KMREI9qQqvgpkV2frH63T0UDVd1SYedL6dNCmDBYB3QtXi4ISk9YT+g==}
+    engines: {node: '>=14.20.1'}
     dev: false
 
   /bson@6.2.0:
@@ -592,11 +597,11 @@ packages:
       mongodb-connection-string-url: 2.6.0
     dev: false
 
-  /mongoose@8.0.1:
-    resolution: {integrity: sha512-O3TJrtLCt4H1eGf2HoHGcnOcCTWloQkpmIP3hA9olybX3OX2KUjdIIq135HD5paGjZEDJYKn9fw4eH5N477zqQ==}
-    engines: {node: '>=16.20.1'}
+  /mongoose@7.3.3:
+    resolution: {integrity: sha512-g4NrRGIUEUYLeScaSChQR8i4Dlk9lR0UJzkK3r6TPJyqJ6ZWdRVP3oXfOG9Yn+hNeKcCJKfVEHo+jsU1rh3YTA==}
+    engines: {node: '>=14.20.1'}
     dependencies:
-      bson: 6.2.0
+      bson: 5.5.1
       kareem: 2.5.1
       mongodb: 6.2.0
       mpath: 0.9.0
