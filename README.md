@@ -21,9 +21,8 @@ This web app is an AI system that can create realistic images and art from a des
 To start the backend open the [.env.example](/server/.env.example) and fill in your MongoDB URL, Open AI API Key & Cloudinary configurations then save it as .env the run the following command:
 
 ```bash
+npm install
 npm start
-# or
-yarn start
 ```
 
 #### Client
@@ -31,12 +30,13 @@ yarn start
 To start the frontend then run the following command:
 
 ```bash
+npm install
 npm run dev
 ```
 
 ## Demo
 
-Host the project anywhere you want. [Click here](https://ai-image.salimi.my) to visit.
+Hosted privately on personal DigitalOcean Droplet. [Click here](https://ai-image.salimi.my) to visit.
 <br>
 Direct link: `https://ai-image.salimi.my`
 
